@@ -1,0 +1,21 @@
+.about-container {
+  max-width: 600px;
+  margin: 30rem auto;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 0 5px 20px #ffffffc0;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.about-container > img {
+  width: 18rem;
+  height: 16rem;
+  margin-left: -250px;
+  filter: brightness(120%) contrast(150%) grayscale(180%);
+}

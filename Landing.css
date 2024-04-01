@@ -1,0 +1,69 @@
+.landing-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-img {
+  background-image: url("/public/astro-3.png");
+  background-size: cover;
+  background-repeat: none;
+  width: 20rem;
+  height: 20rem;
+  filter: contrast(200%) saturate(150%);
+  -webkit-filter: contrast(200%) saturate(150%);
+}
+.landing-img-mobile {
+  background-image: url("/public/astro-3.png");
+  background-size: cover;
+  background-repeat: none;
+  width: 10rem;
+  height: 10rem;
+  filter: contrast(200%) saturate(150%);
+  -webkit-filter: contrast(200%) saturate(150%);
+}
+.landing-img-2 {
+  background-image: url("/public/galaxy-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40rem;
+  height: 40rem;
+  margin-left: 0;
+  margin-top: -300px;
+  filter: contrast(220%) hue-rotate(300deg);
+  -webkit-filter: contrast(220%) hue-rotate(300deg);
+}
+
+#meteor {
+  width: 3rem;
+  height: 3rem;
+  filter: contrast(150%) brightness(100%);
+  -webkit-filter: contrast(150%) brightness(100%);
+}
+
+.landing-text {
+  text-shadow: 0 5px 20px #ffffffc0;
+  font-size: 2rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  letter-spacing: 7px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.landing-text > h1 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.landing-text > h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}

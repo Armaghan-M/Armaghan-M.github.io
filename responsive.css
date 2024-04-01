@@ -1,0 +1,372 @@
+@media screen and (max-width: 1400px) {
+  .landing-img-mobile {
+    display: none;
+  }
+
+  .landing-img {
+    display: block;
+  }
+
+  .landing-img-2 {
+    width: 36rem;
+    height: 36rem;
+    margin: -60px auto 0 auto;
+  }
+
+  .landing-text {
+    font-size: 1.6rem;
+  }
+
+  #tabs #tabs-container {
+    width: 5.5rem;
+    background-position: -10px 38px;
+  }
+
+  #tabs #tabs-container li {
+    width: 5.5rem;
+    height: 2.5rem;
+  }
+
+  #tabs #tabs-container li a {
+    font-size: 1rem;
+  }
+
+  #tabs #tabs-container .home {
+    top: -20px;
+    right: 0;
+  }
+  #tabs #tabs-container .about {
+    top: 100px;
+    right: -50px;
+  }
+  #tabs #tabs-container .projects {
+    top: 160px;
+    right: 0;
+  }
+
+  #tabs #tabs-container .contact {
+    top: 40px;
+    right: -50px;
+  }
+
+  .about-container {
+    max-width: 700px;
+    font-size: 1.3rem;
+    line-height: 2;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .about-container > img {
+    width: 12rem;
+    height: 12rem;
+    margin: 0 auto;
+  }
+
+  #footer-container {
+    margin: 18rem auto 0 auto;
+  }
+
+  #footer-container .footer-info {
+    width: 100%;
+    height: 18rem;
+    font-size: 1.3rem;
+    row-gap: 1.2rem;
+  }
+
+  #spaceship {
+    display: block;
+  }
+
+  #spaceship-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .landing-img-mobile {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .landing-img {
+    display: none;
+  }
+
+  .landing-img-2 {
+    width: 30rem;
+    height: 30rem;
+    margin: -50px auto 0 auto;
+  }
+
+  .landing-text {
+    font-size: 1.2rem;
+    width: 70%;
+    line-height: 1.5;
+  }
+
+  #tabs #tabs-container {
+    width: 2.5rem;
+    top: 50%;
+    background-position: -10px 38px;
+  }
+
+  #tabs #tabs-container li {
+    width: 3.2rem;
+    height: 1.5rem;
+  }
+
+  #tabs #tabs-container li a {
+    font-size: 0.6rem;
+  }
+
+  #tabs #tabs-container .home {
+    top: 2px;
+    right: 0;
+  }
+  #tabs #tabs-container .about {
+    top: 80px;
+  }
+  #tabs #tabs-container .projects {
+    top: 115px;
+    right: 0;
+  }
+
+  #tabs #tabs-container .contact {
+    top: 40px;
+  }
+
+  .about-container {
+    max-width: 500px;
+    margin: 20rem auto;
+    padding: 0 40px;
+    font-size: 1.1rem;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .about-container > img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+  }
+
+  #footer-container {
+    margin: 15rem auto 0 auto;
+  }
+
+  #footer-container .footer-info {
+    width: 100%;
+    height: 18rem;
+    font-size: 1.2rem;
+    row-gap: 1rem;
+  }
+
+  #spaceship {
+    display: block;
+  }
+
+  #spaceship-mobile {
+    display: none;
+  }
+
+  #techs-main #techs-container {
+
+    margin: -18rem auto 25rem auto;
+    width: 50%;
+    height: 100vh;
+    grid-template-columns: repeat(4, auto);
+  }
+
+  #techs-main #techs-container .icon {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  #tabs #tabs-container {
+    right: 3.5rem;
+  }
+  .about-container {
+    margin: 10rem auto;
+  }
+
+  #gallery-container #img-list-title {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    padding-bottom: 0;
+    margin: 6rem auto -6rem auto;
+    border-width: 2px;
+    width: 40%;
+  }
+
+  #modal-btn {
+    font-size: 0.7rem;
+  }
+  #modal-box {
+    padding: 0.5rem;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+  }
+  #modal-modal-title {
+    font-size: 0.7rem;
+  }
+  #modal-modal-description {
+    font-size: 0.6rem;
+  }
+
+  #techs-main #techs-container {
+    /* margin: 10rem auto !important; */
+    margin: -10rem auto 15rem auto !important;
+    width: 60% !important;
+  }
+  #techs-main #techs-container span {
+    font-size: 0.8rem !important;
+  }
+  #techs-main #techs-container .icon {
+    font-size: 2.3rem !important;
+    border-width: 10px !important;
+    box-shadow: 0.5rem 0.7rem 0.1rem !important;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .landing-img-2 {
+    width: 18rem;
+    height: 30rem;
+    margin: -200px auto 0 auto;
+  }
+
+  .landing-text {
+    font-size: 0.6rem;
+    width: 70%;
+    top: 60%;
+    line-height: 1.5;
+  }
+
+  #tabs #tabs-container {
+    width: 1.2rem;
+    top: 50%;
+    background-position: 10px 24px;
+  }
+
+  #tabs #tabs-container li {
+    width: 2rem;
+    height: 1rem;
+  }
+
+  #tabs #tabs-container li a {
+    font-size: 0.4rem;
+  }
+
+  #tabs #tabs-container .home {
+    top: 5px;
+    right: 0;
+  }
+  #tabs #tabs-container .about {
+    top: 60px;
+    right: -35px;
+  }
+  #tabs #tabs-container .projects {
+    top: 85px;
+    right: 0;
+  }
+
+  #tabs #tabs-container .contact {
+    top: 30px;
+    right: -35px;
+  }
+
+  .about-container {
+    max-width: 400px;
+    margin: 3rem auto 8rem auto;
+    padding: 0 40px;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .about-container > img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+  }
+  #gallery-container #img-list-title {
+    font-size: 0.8rem;
+    letter-spacing: 0;
+    padding-bottom: 0;
+    margin: 4rem auto 2rem auto;
+    border-width: 2px;
+    width: 30%;
+  }
+
+  #modal-btn {
+    font-size: 0.6rem;
+  }
+
+  #footer-container {
+    margin: 15rem auto 0 auto;
+  }
+
+  #footer-container .footer-info {
+    width: 400%;
+    height: 11rem;
+    font-size: 0.7rem;
+    row-gap: 0.7rem;
+  }
+
+  #spaceship {
+    display: none;
+  }
+
+  #spaceship-mobile {
+    display: block;
+  }
+
+  #meteor {
+    display: none;
+  }
+
+  #gallery-container #gallery {
+    --n: 10;
+    --m: 3 !important;
+    --g: 10px;
+    display: grid;
+    gap: var(--g);
+    width: 60%;
+    height: 100vh;
+    margin: 2rem auto 2rem auto !important;
+    grid-template-columns: repeat(var(--m), auto);
+    grid-template-rows: repeat(var(--n), 20vh) !important;
+  }
+
+  #gallery-container #gallery img {
+    box-shadow: none !important;
+  }
+
+  #techs-container {
+    grid-template-columns: repeat(3, auto) !important;
+    height: 100vh !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    margin: -2rem auto 25rem auto !important;
+  }
+  #techs-container span {
+    row-gap: 0.5rem !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+  }
+  #techs-main #techs-container .icon {
+    box-shadow: none !important;
+    border: 2px dotted white !important;
+  }
+}

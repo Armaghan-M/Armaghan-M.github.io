@@ -1,0 +1,4 @@
+.App {
+  background: lightblue url(../public/bg-2.svg) no-repeat fixed center;
+  background-size: cover;
+}

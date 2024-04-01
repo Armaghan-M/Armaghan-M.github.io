@@ -1,0 +1,18 @@
+#techs-container {
+  margin: -25rem auto 25rem auto;
+  width: 65%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+#techs-container span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
